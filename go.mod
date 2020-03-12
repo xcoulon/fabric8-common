@@ -1,0 +1,69 @@
+module github.com/fabric8-services/fabric8-common
+
+go 1.13
+
+require (
+	github.com/ajg/form v0.0.0-20160802194845-cc2954064ec9
+	github.com/armon/go-metrics v0.0.0-20180620213357-58588f401c2c
+	github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973
+	github.com/certifi/gocertifi v0.0.0-20180118203423-deb3ae2ef261
+	github.com/davecgh/go-spew v1.1.1
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible
+	github.com/dimfeld/httppath v0.0.0-20170720192232-ee938bf73598
+	github.com/dimfeld/httptreemux v5.0.1+incompatible
+	github.com/dnaeon/go-vcr v0.0.0-20180920040454-5637cf3d8a31
+	github.com/fabric8-services/fabric8-auth-client v0.0.0-20181030170214-0eb93fc6cee1
+	github.com/fsnotify/fsnotify v1.4.7
+	github.com/fzipp/gocyclo v0.0.0-20150627053110-6acd4345c835
+	github.com/getsentry/raven-go v0.0.0-20180903072508-084a9de9eb03
+	github.com/goadesign/goa v1.3.0
+	github.com/gojuno/generator v0.0.0-20180725114326-487ec858da35
+	github.com/gojuno/minimock v0.0.0-20181004133642-a5502dd2746e
+	github.com/golang/lint v0.0.0-20180702182130-06c8688daad7
+	github.com/golang/protobuf v1.1.0
+	github.com/hashicorp/go-immutable-radix v0.0.0-20180129170900-7f3cd4390caa
+	github.com/hashicorp/golang-lru v0.0.0-20180201235237-0fb14efe8c47
+	github.com/hashicorp/hcl v0.0.0-20180404174102-ef8a98b0bbce
+	github.com/howeyc/fsnotify v0.9.0
+	github.com/inconshreveable/mousetrap v1.0.0
+	github.com/jinzhu/gorm v1.9.1
+	github.com/jinzhu/inflection v0.0.0-20180308033659-04140366298a
+	github.com/jteeuwen/go-bindata v3.0.7+incompatible
+	github.com/konsorten/go-windows-terminal-sequences v1.0.1
+	github.com/lib/pq v0.0.0-20180523175426-90697d60dd84
+	github.com/magiconair/properties v1.8.0
+	github.com/manveru/faker v0.0.0-20171103152722-9fbc68a78c4d
+	github.com/mattn/go-colorable v0.0.9
+	github.com/mattn/go-isatty v0.0.3
+	github.com/matttproud/golang_protobuf_extensions v1.0.1
+	github.com/mitchellh/mapstructure v0.0.0-20180511142126-bb74f1db0675
+	github.com/pelletier/go-toml v1.2.0
+	github.com/pilu/config v0.0.0-20131214182432-3eb99e6c0b9a
+	github.com/pilu/fresh v0.0.0-20170301142741-9c0092493eff
+	github.com/pkg/errors v0.8.0
+	github.com/pmezard/go-difflib v1.0.0
+	github.com/prometheus/client_golang v0.8.0
+	github.com/prometheus/client_model v0.0.0-20171117100541-99fa1f4be8e5
+	github.com/prometheus/common v0.0.0-20180518154759-7600349dcfe1
+	github.com/prometheus/procfs v0.0.0-20180629160828-40f013a808ec
+	github.com/satori/go.uuid v1.2.0
+	github.com/sirupsen/logrus v1.3.0
+	github.com/spf13/afero v1.1.1
+	github.com/spf13/cast v1.2.0
+	github.com/spf13/cobra v0.0.3
+	github.com/spf13/jwalterweatherman v0.0.0-20180109140146-7c0cea34c8ec
+	github.com/spf13/pflag v1.0.1
+	github.com/spf13/viper v1.0.2
+	github.com/stretchr/testify v1.3.0
+	github.com/wadey/gocovmerge v0.0.0-20160331181800-b5bfa59ec0ad
+	github.com/zach-klippenstein/goregen v0.0.0-20160303162051-795b5e3961ea
+	golang.org/x/crypto v0.0.0-20180904163835-0709b304e793
+	golang.org/x/lint v0.0.0-20180702182130-06c8688daad7
+	golang.org/x/net v0.0.0-20180702212446-ed29d75add3d
+	golang.org/x/sys v0.0.0-20180905080454-ebe1bf3edb33
+	golang.org/x/text v0.3.0
+	golang.org/x/tools v0.0.0-20180703003602-ffe889067184
+	gopkg.in/h2non/gock.v1 v1.0.12
+	gopkg.in/square/go-jose.v2 v2.1.6
+	gopkg.in/yaml.v2 v2.2.1
+)
